@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Prueba2.Models;
+using Prueba2.Modelos;
 using System.Diagnostics;
 
-namespace Prueba2.Controllers
+namespace Prueba2.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
